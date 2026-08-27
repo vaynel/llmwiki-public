@@ -1,3 +1,30 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// 폴더/태그 목록에서 태그가 한 줄씩 세로로 쌓여 각 문서 행이 지나치게 높아지는 문제.
+// 태그 <ul>을 가로 flex로 바꿔 한 줄에 모으고, 목록 불릿과 기본 여백을 제거한다.
+// 마크업은 건드리지 않고 CSS만 손대므로 Quartz 업그레이드에 영향받지 않는다.
+.section > ul.tags {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  & > li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    &::marker {
+      content: "";
+    }
+  }
+}
+
+// 문서 행 사이 간격을 조금 더 촘촘하게
+.section-ul > .section-li {
+  margin-bottom: 0.6rem;
+}
