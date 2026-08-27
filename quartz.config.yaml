@@ -144,8 +144,10 @@ plugins:
       enableRSS: true
   - source: "@quartz-community/favicon"
     enabled: true
+  # 비활성화: 노트 본문의 키캡 이모지(1️⃣ 등)에서 폰트 맵 조회 실패로 빌드가 깨짐
+  # ("codepoint 31-20e3 not found in map"). OG 카드는 소셜 미리보기용이라 사이트 기능에는 영향 없음.
   - source: "@quartz-community/og-image"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/cname"
     enabled: true
   - source: "@quartz-community/canvas-page"
