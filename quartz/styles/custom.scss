@@ -1,8 +1,18 @@
 @use "./variables.scss" as *;
 
-// 폴더/태그 목록에서 태그가 한 줄씩 세로로 쌓여 각 문서 행이 지나치게 높아지는 문제.
-// 태그 <ul>을 가로 flex로 바꿔 한 줄에 모으고, 목록 불릿과 기본 여백을 제거한다.
-// 마크업은 건드리지 않고 CSS만 손대므로 Quartz 업그레이드에 영향받지 않는다.
+// ─────────────────────────────────────────────────────────────
+// 폴더/태그 목록(PageList)의 태그 배치
+//
+// 기본 마크업은 태그를 <ul><li>로 내보내서 한 줄씩 세로로 쌓인다. 그 탓에
+// 문서 한 건이 여러 줄 높이를 차지해 목록이 뚝뚝 떨어져 보인다.
+// 마크업은 그대로 두고 CSS만으로 가로 한 줄에 모은다 (업그레이드 안전).
+//
+// 주의: Quartz 기본 스타일은 `@layer quartz-base` 안에 있고, 이 파일은
+// 레이어 밖이라 명시도와 무관하게 항상 이긴다. 그래서 기본이 모바일에서
+// 태그를 숨기던 규칙(max-width:600px에서 display:none)까지 덮어써 버린다.
+// 아래에서 모바일 레이아웃을 직접 책임지는 이유가 이것이다.
+// ─────────────────────────────────────────────────────────────
+
 .section > ul.tags {
   display: flex;
   flex-wrap: wrap;
@@ -22,9 +32,32 @@
       content: "";
     }
   }
+
+  // 태그 이름이 단어 중간에서 잘리지 않게 ("강의노트" -> "강의노" + "트" 방지)
+  & a.tag-link {
+    white-space: nowrap;
+  }
 }
 
 // 문서 행 사이 간격을 조금 더 촘촘하게
 .section-ul > .section-li {
   margin-bottom: 0.6rem;
+}
+
+// 좁은 화면: 날짜 | 제목 | 태그 3칼럼 그리드로는 태그 칼럼이 너무 좁다.
+// 한 칼럼으로 풀어서 태그가 자기 줄 전체를 쓰게 하고 왼쪽 정렬한다.
+@media all and (max-width: 600px) {
+  li.section-li > .section {
+    grid-template-columns: 1fr;
+    row-gap: 0.15rem;
+  }
+
+  li.section-li > .section .meta {
+    margin: 0;
+  }
+
+  .section > ul.tags {
+    justify-content: flex-start;
+    margin-top: 0.15rem;
+  }
 }
