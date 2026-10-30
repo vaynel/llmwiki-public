@@ -7,11 +7,11 @@ created: 2026-10-09
 
 [상세 시황](<03-프로젝트/증시분석/2026/10_2주/2026-10-09_증시_현황_분석.md>)
 
-- [미국 지수·반도체 수익률](<03-프로젝트/증시분석/assets/2026-10-09/01-indices.png>) · 데이터 · 데이터
-- [국채금리와 유가](<03-프로젝트/증시분석/assets/2026-10-09/02-rates-oil.png>) · 데이터 · 데이터
-- [한국 수급·시장 폭](<03-프로젝트/증시분석/assets/2026-10-09/03-korea.png>) · 데이터 · 데이터
-- [공식 잠정실적](<03-프로젝트/증시분석/assets/2026-10-09/04-earnings.png>) · 데이터 · 데이터
+- [미국 지수·반도체 수익률](<03-프로젝트/증시분석/assets/2026-10-09/01-indices.png>) · [데이터](<#server-only-attachment>) · [데이터](<#server-only-attachment>)
+- [국채금리와 유가](<03-프로젝트/증시분석/assets/2026-10-09/02-rates-oil.png>) · [데이터](<#server-only-attachment>) · [데이터](<#server-only-attachment>)
+- [한국 수급·시장 폭](<03-프로젝트/증시분석/assets/2026-10-10/03-korea.png>) · [데이터](<#server-only-attachment>) · [데이터](<#server-only-attachment>)
+- [공식 잠정실적](<03-프로젝트/증시분석/assets/2026-10-09/04-earnings.png>) · [데이터](<#server-only-attachment>) · [데이터](<#server-only-attachment>)
 - [한국 개장 판단 조건](<03-프로젝트/증시분석/assets/2026-10-09/05-conditions.png>)
-- [한국시간 주요 일정](<03-프로젝트/증시분석/assets/2026-10-09/06-calendar.png>) · 데이터
+- [한국시간 주요 일정](<03-프로젝트/증시분석/assets/2026-10-09/06-calendar.png>) · [데이터](<#server-only-attachment>)
 
 출처·단위·시점과 한계는 본문 및 각 그림에 표시했다. 인과 도식은 작성자의 조건부 해석이다.

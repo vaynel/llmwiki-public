@@ -13,13 +13,13 @@ created: 2026-10-15
 - [04-rates-oil.png](<03-프로젝트/증시분석/assets/2026-10-15/04-rates-oil.png>)
 - [05-fundamentals.png](<03-프로젝트/증시분석/assets/2026-10-15/05-fundamentals.png>)
 - [06-conditions.png](<03-프로젝트/증시분석/assets/2026-10-15/06-conditions.png>)
-- asml-results.csv
-- cpi-components.csv
-- korea-breadth.csv
-- korea-flows.csv
-- oil-reported-settlements.csv
-- price-returns.csv
-- price-series.csv
-- treasury-yields.csv
+- [asml-results.csv](<#server-only-attachment>)
+- [cpi-components.csv](<#server-only-attachment>)
+- [korea-breadth.csv](<#server-only-attachment>)
+- [korea-flows.csv](<#server-only-attachment>)
+- [oil-reported-settlements.csv](<#server-only-attachment>)
+- [price-returns.csv](<#server-only-attachment>)
+- [price-series.csv](<#server-only-attachment>)
+- [treasury-yields.csv](<#server-only-attachment>)
 
 미국·한국10월14일 대10월13일 종가. 수익률%, 수급억원, 원유USD/배럴, 미국주가USD, 지수포인트, 국채연수익률%. 국채10월14일 대10월13일;10월12일 채권 휴장. CPI계절조정전월비%, ASML분기실적백만유로. 원유WTI11월물/Brent12월물 정산 보도. 관측과 해석은 본문·차트에서 구분.
