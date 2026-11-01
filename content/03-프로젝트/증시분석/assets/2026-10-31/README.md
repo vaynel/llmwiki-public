@@ -7,9 +7,9 @@ created: 2026-10-31
 [보고서](<03-프로젝트/증시분석/2026/10_5주/2026-10-31_증시_현황_분석.md>)
 
 - [01-markets.png](<03-프로젝트/증시분석/assets/2026-10-31/01-markets.png>)
-- [02-ai.png](<03-프로젝트/증시분석/assets/2026-10-31/02-ai.png>)
+- [02-ai.png](<03-프로젝트/증시분석/assets/2026-11-02/02-ai.png>)
 - [03-rates.png](<03-프로젝트/증시분석/assets/2026-10-31/03-rates.png>)
-- [04-night.png](<03-프로젝트/증시분석/assets/2026-10-31/04-night.png>)
+- [04-night.png](<03-프로젝트/증시분석/assets/2026-11-02/04-night.png>)
 - [05-causal.png](<03-프로젝트/증시분석/assets/2026-10-31/05-causal.png>)
 - [06-week.png](<03-프로젝트/증시분석/assets/2026-10-31/06-week.png>)
 - [night.csv](<#server-only-attachment>)
